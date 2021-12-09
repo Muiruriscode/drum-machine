@@ -1,0 +1,32 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body{
+  background-color: #f4f4f4;
+  color: hsl(90, 100%, 50%);
+}
+.display {
+  background-colour: #fff;
+}
+.clip-div{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr)
+}
+.drum-pad {
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+}
+#drum-machine {
+  display: flex;
+  border: 10px solid #333;
+  padding: 20px 0;
+  border-radius: 2%;
+  background: #000;
+}
+.control {
+  margin-top: 3%;
+}
